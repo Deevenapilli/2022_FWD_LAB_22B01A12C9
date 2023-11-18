@@ -1,0 +1,18 @@
+.f{
+    border:10px solid green;
+    margin:2px;
+    text-align:center;
+}
+ label textarea{
+        vertical-align: middle;
+    }
+.button {
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color:black;
+  color: white;
+   font-size: 16px;
+  margin: 4px 2px;
+}

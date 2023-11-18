@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link ref="stylesheet" href="style.css">
+</head>
+<body bgcolor="silver">
+<h3 align="center">REGISTRATION FORM</h3>
+<form name="f" align="center" >
+ <br>
+  <b>Name:</b><input type="text"  name ="name" placeholder="Enter your name here!"   /><br>
+<br>
+<b>Password:</b><input type="password" name="pass" placeholder="Enter strong password"  required /><br><br>
+   <b> <label for="email">Email:</label></b>
+  <input type="email" id="email" name="email" placeholder="Enter your email-address" required/><br><br>
+<b>Gender:</b><input type="radio" name="1">Male</input>
+<input type="radio" name="1">Female</input>
+<input type="radio" name="1">Others</input><br><br>
+<b>Languages known:</b>
+<input type="checkbox" name="a">Telugu</input>
+<input type="checkbox" name="b">Hindi</input>
+<input type="checkbox" name="c">English</input><br><br>
+<label><b>Address:</b>
+<textarea  rows="10" cols="30"></textarea></label><br>
+  <br>
+<button class="button" onclick="return validateForm()">Submit</button><br><br>
+
+</form>
+</body>
+</html>
